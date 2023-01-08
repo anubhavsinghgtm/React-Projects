@@ -13,19 +13,23 @@ import {
 } from 'react-router-dom'
 
 
+
 function App() {
   return (
     <Router>
       <div className='container dark'>
         <div className="app">
           <Header />
+          
             <Routes>
               <Route path="/"  exact element={ <NotesListPage />} />
               <Route path="/note/:id"  element={ <NotePage />} />
               
               {/* <Route path="/test"  */}
             </Routes>
+            
         </div>
+
       </div>
      
     </Router>
