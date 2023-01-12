@@ -17,9 +17,15 @@ const NotesListPage = () => {
   let getNotes = async () => {
     let response = await fetch('/api/notes/')
     let data = await response.json()
+  
     setNotes(data)
     
   }
+
+    // ----------- to get the title  --------------
+
+    
+  
 
   return (
     <div className='notes'>
@@ -30,6 +36,7 @@ const NotesListPage = () => {
       <div className='notes-list'>
 
         {notes.map( (note, index) => (
+
           <ListItem note={note} key={index} />
         ))}
         
