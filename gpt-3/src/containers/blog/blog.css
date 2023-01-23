@@ -1,0 +1,9 @@
+
+.gpt3__blog-heading h1{
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  /* max-width: 700px; */
+  margin-bottom: 2rem;
+}

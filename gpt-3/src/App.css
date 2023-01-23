@@ -6,7 +6,7 @@
 }
 
 body {
-  
+  font-family: var(--font-family);
   background-color: var(--color-bg);
 }
 
@@ -48,11 +48,11 @@ a {
 }
 
 
-.section-padding {
+.section__padding {
   padding: 4rem 6rem;
 }
 
-.section-margin {
+.section__margin {
   margin: 4rem 6rem;
 }
 
@@ -89,11 +89,11 @@ a {
 
 
 @media screen and (max-width: 700px) {
-  .section-padding {
+  .section__padding {
     padding: 4rem;
   }
   
-  .section-margin {
+  .section__margin {
     margin: 4rem;
   }
 }
@@ -101,11 +101,11 @@ a {
 
 
 @media screen and (max-width: 550px) {
-  .section-padding {
+  .section__padding {
     padding: 4rem 2rem;
   }
   
-  .section-margin {
+  .section__margin {
     margin: 4rem 2rem;
   }
 }

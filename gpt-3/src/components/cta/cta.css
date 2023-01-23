@@ -1,0 +1,93 @@
+.gpt3__cta{
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  justify-content: space-between;
+  border: 1px solid #000;
+  border-radius: 10px;
+  
+
+
+  /* ff 3.6+ */
+  background:-moz-linear-gradient(90deg, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 100%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(90deg, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 100%);
+
+  /* opera 11.10+ */
+  background:-o-linear-gradient(90deg, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F49867', endColorstr='#AE67FA', GradientType=0 );
+
+  /* ie 10+ */
+  background:-ms-linear-gradient(90deg, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 100%);
+
+  /* global 94%+ browsers support */
+  background:linear-gradient(90deg, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 100%);
+
+}
+
+
+
+.gpt3__cta-heading p{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.gpt3__cta-heading h3{
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+
+.gpt3__cta-btn button{
+  border-radius: 40px;
+  background: #000;
+  color: #fff;
+  height: 60px;
+  width: 190px;
+
+
+
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+
+@media screen and (max-width: 1050px) {
+  .gpt3__cta{
+    flex-direction: column;
+    
+  }
+
+  .gpt3__cta-btn button{
+    margin-top: 2rem ;
+    font-size: 16px;
+    width: 160px;
+    height: 50px;
+  }
+
+  .gpt3__cta-heading p{
+    margin-bottom: 1rem;
+    line-height: 20px;
+  }
+
+  .gpt3__cta-heading h3{
+    line-height: 30px;
+  }
+}
+
+
+@media screen and (max-width: 700px){
+  .gpt3__cta-btn button{
+    font-weight: 500;
+    font-size: 15px;
+    width: 130px;
+    height: 40px;
+  }
+}
